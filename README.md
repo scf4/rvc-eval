@@ -52,10 +52,11 @@ python -m rvc_eval.cli --list-audio-devices
 python -m rvc_eval.cli --model path/to/your/model.pth --input-device-index 0 --output-device-index 1
 ```
 
-## Recommended Dependencies and Requirements
-- Python: 3.10.x
-- PyTorch: 2.0.0+cu118
-- Pipenv is used for managing dependencies.
+## Requirements
+- Python: >=3.8.x (3.10 recommended)
+- PyTorch: 2.0.0+cu118 recommended
+
+Note: Pipenv is used for managing dependencies.
 
 ## Credits
 - This project is based on the [Retrieval-based Voice Conversion](https://github.com/liujing04/Retrieval-based-Voice-Conversion-WebUI) system by liujing04.
