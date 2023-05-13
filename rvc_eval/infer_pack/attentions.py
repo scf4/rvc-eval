@@ -5,9 +5,9 @@ import torch
 from torch import nn
 from torch.nn import functional as F
 
-from infer_pack import commons
-from infer_pack import modules
-from infer_pack.modules import LayerNorm
+from rvc_eval.infer_pack import commons
+from rvc_eval.infer_pack import modules
+from rvc_eval.infer_pack.modules import LayerNorm
 
 
 class Encoder(nn.Module):
