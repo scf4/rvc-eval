@@ -16,6 +16,3 @@ resampy = "*"
 
 [dev-packages]
 bandit = "*"
-
-[requires]
-python_version = "3.8"
